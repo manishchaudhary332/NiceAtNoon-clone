@@ -1,9 +1,10 @@
 import React from 'react'
+import scroll from '../assets/scroll.webp'
 
 function Navbar() {
   return (
     <>
-    <div className='w-full bg-slate-600 h-20 w-full flex justify-between px-20 justify-center items-center bg-white  bg-[#E4E4E4]'>
+    <div className='  h-20 w-full flex justify-between px-20  items-center bg-white  '>
              <div className='flex justify-between  w-2/4 h-10 '>
                  
                  <h5><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="60%" viewBox="0 0 192 30" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
@@ -21,7 +22,7 @@ function Navbar() {
 <path d="M131.303 1.34818V1.21697H125.809V1.35557C125.826 1.44798 125.914 1.71595 126.037 2.08371C126.56 3.65273 127.784 7.32486 127.784 10.6902V18.0991C127.784 18.9492 126.648 19.2579 126.208 18.5279L116.004 1.62354C115.851 1.37036 115.575 1.21512 115.276 1.21512H108.319V1.28165C108.331 1.32415 108.4 1.51451 108.488 1.75476C108.902 2.87839 109.87 5.5082 109.87 7.92363V20.0193C109.87 23.3846 108.645 27.0586 108.123 28.6258C107.997 29.0028 107.907 29.2744 107.894 29.3613V29.4925H113.424V29.3465C113.409 29.2929 113.34 29.0896 113.242 28.8087C112.742 27.3635 111.415 23.5232 111.415 20.0193V9.3485C111.415 8.50023 112.548 8.18975 112.989 8.9179L125.275 29.0878C125.429 29.3391 125.704 29.4944 126.002 29.4944H128.479C128.947 29.4944 129.327 29.1192 129.327 28.6572V10.6902C129.327 7.32486 130.552 3.65088 131.075 2.08371C131.2 1.70671 131.292 1.43504 131.303 1.34818Z" fill="currentColor"></path>
 </g>
                  </svg></h5>
-                 <img className='animate w-12 h-12 ' src='scroll.webp'  alt="" />
+                 <img className='animate w-12 h-12 ' src={scroll}  alt="" />
             </div>
             <div className='  flex h-12 gap-4 '>
                  <button className='border-2 border-zinc-800 px-4 hover:text-white hover:bg-black  rounded-2xl text-lg duration-300'>Projecten</button>

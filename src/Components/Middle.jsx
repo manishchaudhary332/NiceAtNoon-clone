@@ -1,4 +1,10 @@
 import React from 'react'
+import green from '../assets/green.webp'
+import yellow from '../assets/yellow.webp'
+import red from '../assets/red.webp'
+import roman from '../assets/roman.webp'
+import teen from '../assets/teenmobile.webp'
+import redweb from '../assets/red.webp'
 
 const Middle = () => {
   return (
@@ -23,12 +29,12 @@ const Middle = () => {
 
 
             <div className='scrollimg flex gap-8  mt-20 '>
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="green.webp" alt="" />
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="yellow.webp" alt="" />
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="red.webp" alt="" />
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="roman.webp" alt="" />
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="teenmobile.webp" alt="" />
-                <img className='w-[500px] h-[600px] rounded-[120px]' src="red.webp" alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={green} alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={yellow} alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={red} alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={roman} alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={teen} alt="" />
+                <img className='w-[500px] h-[600px] rounded-[120px]' src={redweb} alt="" />
             </div>
 
 

@@ -1,4 +1,15 @@
 import React from 'react'
+import eventg from '../assets/event.jpg'
+import down from '../assets/Down.jpg'
+import shirt from '../assets/shirt.jpg'
+import colon  from '../assets/colon.jpg'
+import books  from '../assets/books.jpg'
+import spark  from '../assets/sprk.jpg'
+import laptop  from '../assets/laptop.jpg'
+import twomop  from '../assets/two-mob.jpg'
+import bigimg  from '../assets/big-img.webp'
+import coin  from '../assets/coin.svg'
+import bigtext  from '../assets/big-text.png'
 
 const Page2 = () => {
   return (
@@ -34,8 +45,8 @@ const Page2 = () => {
                     <div className='w-[100%] h-[100%]  flex mt-10 justify-between '>
                         <div className='w-[49%] relative '>
                                     <div className=' group  '>
-                                            <img className='group-hover:rounded-[50px]  hover:scale-110 duration-300 '  src="event.jpg" />
-                                            <img className='group-hover:opacity-100 absolute top-[10%] opacity-0 left-[30%] h-[300px] w-[300px] rounded-[50px] duration-200 ease-linear' src="Down.jpg" alt="" />
+                                            <img className='group-hover:rounded-[50px]  hover:scale-110 duration-300 '  src={eventg} />
+                                            <img className='group-hover:opacity-100 absolute top-[10%] opacity-0 left-[30%] h-[300px] w-[300px] rounded-[50px] duration-200 ease-linear' src={down} alt="" />
                                     </div>
 
                                     <h5 className='text-xl font-serif opacity-[0.5] mt-5'>Gaaf Creaties</h5>
@@ -48,8 +59,8 @@ const Page2 = () => {
                         </div>
                         <div className=' w-[48%] h-[600px] relative hover:rounded-[80px] '> 
                             <div className='group '>
-                            <img className='group-hover:rounded-[40px] h-[500px] duration-300 ease-linear hover:scale-[1.1]  ' src="shirt.jpg" alt="" />
-                            <img className='group-hover:opacity-100 absolute top-[15%] opacity-0 left-[30%] h-[300px] w-[300px] rounded-[50px] duration-200 ease-linear' src="colon.jpg" alt="" />
+                            <img className='group-hover:rounded-[40px] h-[500px] duration-300 ease-linear hover:scale-[1.1]  ' src={shirt} alt="" />
+                            <img className='group-hover:opacity-100 absolute top-[15%] opacity-0 left-[30%] h-[300px] w-[300px] rounded-[50px] duration-200 ease-linear' src={colon} alt="" />
 
                         </div>
 
@@ -93,7 +104,7 @@ const Page2 = () => {
         <div className='flex gap-3'>
                   <div className='group w-[350px] rounded-[40px] bg-green  flex-col overflow-hidden mt-10 flex'>
                 <div className='group'>
-                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src="books.jpg" alt="" />
+                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src={books} alt="" />
                 </div>
                 <div className='bg-[#AA81B7] flex flex-col gap-7 px-5 py-4 group-hover:rounded-[50px] duration-200 ease-linear'>
                     <h2 className='text-xl font-bold text-white'>Brand Story </h2>
@@ -105,7 +116,7 @@ const Page2 = () => {
 
                  <div className='group w-[350px] rounded-[40px] bg-green flex flex-col overflow-hidden mt-10'>
                 <div className='group'>
-                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src="sprk.jpg" alt="" />
+                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src={spark} alt="" />
                 </div>
 
                 <div className='bg-[#10100F] flex flex-col gap-7 px-5 py-4 group-hover:rounded-[50px] duration-200 ease-linear'>
@@ -117,7 +128,7 @@ const Page2 = () => {
 
                  <div className='group w-[350px] rounded-[40px] bg-green flex flex-col overflow-hidden mt-10'>
                 <div className='group'>
-                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src="laptop.jpg" alt="" />
+                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src={laptop} alt="" />
                 </div>
                 <div className='bg-[#36A96A] flex flex-col gap-7 px-5 py-4 group-hover:rounded-[50px] duration-200 ease-linear'>
                     <h2 className='text-xl font-bold text-white'>Brand Story </h2>
@@ -130,7 +141,7 @@ const Page2 = () => {
                  <div className='group w-[350px] rounded-[40px] bg-green flex flex-col overflow-hidden mt-10'>
 
                 <div className='group'>
-                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src="two-mob.jpg" alt="" />
+                        <img className='h-[250px] w-full group-hover:rounded-[80px] duration-200 ease-linear ' src={twomop} alt="" />
                 </div>
                 <div className='bg-[#FA8A58] flex flex-col gap-7 px-5 py-4 group-hover:rounded-[50px] duration-200 ease-linear'>
                     <h2 className='text-xl font-bold text-white'>Brand Story </h2>
@@ -168,7 +179,7 @@ const Page2 = () => {
 
 
         <div>
-            <img className='rounded-[100px] h-full' src="big-img.webp" alt="" />
+            <img className='rounded-[100px] h-full' src={bigimg} alt="" />
 
             <div className='w-[500px] gap-5 flex mt-6'>
                 <button className='bg-zinc-400 text-white px-2 py-1 rounded-2xl text-ms'>Brands Story sessies</button>
@@ -203,7 +214,7 @@ const Page2 = () => {
 
 
         <div className='mt-[30px] '>
-            <img className='animate w-[150px] ml-[90%] ' src="coin.svg" alt="" />
+            <img className='animate w-[150px] ml-[90%] ' src={coin} alt="" />
         </div>
 
 
@@ -254,7 +265,7 @@ const Page2 = () => {
 
 
         <div className='w-full   '> 
-                <img className='w-full bg-black' src="big-text.png" alt="" />
+                <img className='w-full bg-black' src={bigtext} alt="" />
             </div>
 
     </div>
